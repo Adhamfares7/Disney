@@ -80,10 +80,6 @@ const MovieList = ({genresId , index_}) => {
         .then(res => setlist(res.data.results))
         .catch(err => console.error(err));
     }
-
-console.log(list);
-
-
   return ( <>
       <Slider className='' {...settings}>   
       {list?.map((item)=>(
