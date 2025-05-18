@@ -34,7 +34,7 @@ function Sliderr() {
 
 
 {MovieList.map((item, index) => (
-      <img src={imgBaseUrl+item.backdrop_path} className=" min-w-full scroll-auto md:h-[400px] object-cover object-top mr-5 rounded-lg " alt="" />
+      <img src={imgBaseUrl+item.backdrop_path} className=" min-w-full scroll-auto md:h-[500px] object-cover object-top mr-5 rounded-lg " alt="" />
 ))}
 
     </Slider>

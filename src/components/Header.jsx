@@ -63,7 +63,7 @@ const Header = () => {
           )}
           <div className=" md:hidden z-10 " onClick={()=>setToggle(!Toggle)}>
             <HeaderItem Icon={HiDotsVertical} />
-          {Toggle?             <div className="absolute mt-3 end-0 bg-[#121212] border-[1px] border-gray-700  px-5 py-4">
+          {Toggle?             <div className="absolute mt-3 max-[400px]:end-0 bg-[#121212] border-[1px] border-gray-700  px-5 py-4">
             {menu.map(
             (item, index) =>
               index > 2 && <HeaderItem name={item.name} key={index} Icon={item.icon} />
